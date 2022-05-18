@@ -1,0 +1,34 @@
+.button
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button > *
+{
+  margin: 0 2px;
+}
+
+.outlined
+{
+  border:1px solid var(--primaryColor);
+  background: white; 
+  color: var(--primaryColor);
+
+}
+
+.filled
+{
+  background: var(--primaryColor);
+  border: none;
+  color: white;
+
+}
+
+.plain
+{
+  border: none;
+  background: white; 
+  color: var(--primaryColor);
+}
