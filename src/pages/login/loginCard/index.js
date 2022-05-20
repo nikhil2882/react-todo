@@ -21,7 +21,7 @@ export default function LoginCard(props) {
         placeholder="Enter mobile number"
         type="number"
       />
-      <Button onClick={onSubmit} variant="filled">
+      <Button onClick={onSubmit} variant="filled" disabled={isLoading}>
         {isLoading ? (
           <Progress size={25} />
         ) : (
